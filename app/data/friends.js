@@ -1,0 +1,168 @@
+
+// DATA
+
+var friends = [
+  {
+      "name":"Owen",
+      "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Pavan",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Angel",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Karina",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Miriam",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Lisa",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nicole",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Jason",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nate",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ken",
+  "photo":"https://s-media-cache-ak0.pinimg.com/736x/c5/d7/94/c5d7946cba56bb614d3c8c322a394ded.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
